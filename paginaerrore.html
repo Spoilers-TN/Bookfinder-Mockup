@@ -12,6 +12,22 @@
     <link rel="stylesheet" href="assets/css/Navigation-with-Button.css">
     <link rel="stylesheet" href="assets/css/Navigation-with-Search.css">
     <link rel="stylesheet" href="assets/css/styles.css">
+
+		<!-- Per emoji casuale ad ogni load della pagina -->
+		<script type="text/javascript">
+		  var imageURLs = [
+		       "/assets/img/emojierror/sad.png"
+		       "/assets/img/emojierror/sad.png"
+		       "/assets/img/emojierror/sad.png"
+		  ];
+		  function getImageTag() {
+		    var img = '<img src="';
+		    var randomIndex = Math.floor(Math.random() * imageURLs.length);
+		    img += imageURLs[randomIndex];
+		    img += '\" alt=\"Emoji di errore\"/>';
+		    return img;
+		  }
+		</script>
 </head>
 
 <body>
@@ -35,7 +51,7 @@
   <div class="container" style="margin-top: 50px; margin-bottom: 100px">
     <div class="card">
         <div class="card-body">
-            <img src="/assets/img/sad.png" style="margin-bottom: 15px"></img>
+            <img src="/assets/img/emojierror/sad.png" style="margin-bottom: 15px"></img>
             <h4 class="card-title">Oops! C'è stato un errore nell'elaborazione della richiesta.</h4>
             <p class="card-text">Descrizione errore *** (per programmatori)</p>
                     <a class="card-link" href="#">Torna alla home page</a>

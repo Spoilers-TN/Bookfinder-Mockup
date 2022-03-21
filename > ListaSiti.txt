@@ -1,89 +1,110 @@
+https://www.libraccio.it/scolastici?n=1&reg=Trentino+Alto+Adige&prov=TN&citta=Trento&tipo=TF&scuola=TNTF01301D&classe=4A&corso=INFORMATICA
+
+
 1) index.html   	                        -> pagina NON registrati
 FATTA DA: 
 INIZIATA IL: 
+CONCLUSA IL: 
 NOTE/DESCRIZIONE AGGIUNTIVA: 
 
 2) dashboard.html                         -> PAGINA principale per registrati
 FATTA DA: 
 INIZIATA IL: 
+CONCLUSA IL: 
 NOTE/DESCRIZIONE AGGIUNTIVA: 
 
 3) modifica-profilo.html                  -> Modifica info pubbliche + rimuovi account
 FATTA DA: 
 INIZIATA IL: 
+CONCLUSA IL: 
 NOTE/DESCRIZIONE AGGIUNTIVA: 
 
 4) richieste.html                         -> Richieste acquisto e richieste in invio
 FATTA DA: 
 INIZIATA IL: 
+CONCLUSA IL: 
 NOTE/DESCRIZIONE AGGIUNTIVA: 
 
 5) cerca-libro.html                       -> non serve descrizione
-FATTA DA: 
+FATTA DA: Berti Giacomo/Sidkir Amar
 INIZIATA IL: 
+CONCLUSA IL: 
 NOTE/DESCRIZIONE AGGIUNTIVA: 
 
 6) carica-annuncio.html                   -> per caricare
 FATTA DA: Berti Giacomo/Sidkir Amar
 INIZIATA IL: 21 marzo
+CONCLUSA IL: 
 NOTE/DESCRIZIONE AGGIUNTIVA: 
 
 7) profilo.html                           -> con username
 FATTA DA: 
 INIZIATA IL: 
+CONCLUSA IL: 
 NOTE/DESCRIZIONE AGGIUNTIVA: 
 
 8) spoilers..../profilo?user=yuri.mancosu -> pagina di mancosu
 FATTA DA: 
 INIZIATA IL: 
+CONCLUSA IL: 
 NOTE/DESCRIZIONE AGGIUNTIVA: 
 
 9) termini.html                           -> termini e condizioni
 FATTA DA: 
 INIZIATA IL: 
+CONCLUSA IL: 
 NOTE/DESCRIZIONE AGGIUNTIVA: 
 
 10) chi-siamo.html                        -> chi siamo?
-FATTA DA: 
-INIZIATA IL: 
+FATTA DA: Yuri Mancosi/Lunelli Matteo
+INIZIATA IL: 21 marzo
+CONCLUSA IL: 
 NOTE/DESCRIZIONE AGGIUNTIVA: 
 
 11) cerca-libri-scuola.html               -> libri per scuola
 FATTA DA: 
 INIZIATA IL: 
+CONCLUSA IL: 
 NOTE/DESCRIZIONE AGGIUNTIVA: 
 
 12) cerca-libri-luogo.html                -> per luogo
 FATTA DA: 
 INIZIATA IL: 
+CONCLUSA IL: 
 NOTE/DESCRIZIONE AGGIUNTIVA: 
 
 13) inserisci-feedback.html               -> altre pagine minori
 FATTA DA: 
 INIZIATA IL: 
+CONCLUSA IL: 
 NOTE/DESCRIZIONE AGGIUNTIVA: 
 
 14) conferma-invia-richiesta.html         -> conferma richiesta
 FATTA DA: 
 INIZIATA IL: 
+CONCLUSA IL: 
 NOTE/DESCRIZIONE AGGIUNTIVA: 
 
 15) errore.html                           -> mostra gli errori
 FATTA DA: Yuri Mancosi/Lunelli Matteo
 INIZIATA IL: 21 marzo
-NOTE/DESCRIZIONE AGGIUNTIVA: 
+CONCLUSA IL: 21 marzo
+NOTE/DESCRIZIONE AGGIUNTIVA: primo draft finito, in attesa dei programmatori
 
 16) impostazione.html                     -> modifica impostazione pagine
 FATTA DA: 
 INIZIATA IL: 
+CONCLUSA IL: 
 NOTE/DESCRIZIONE AGGIUNTIVA: 
 
 17) inizializza-profile.html              -> cambia
 FATTA DA: 
 INIZIATA IL: 
+CONCLUSA IL: 
 NOTE/DESCRIZIONE AGGIUNTIVA: 
 
 18) scegli-tema.html                      -> post registrazione
 FATTA DA: 
 INIZIATA IL: 
+CONCLUSA IL: 
 NOTE/DESCRIZIONE AGGIUNTIVA: 
