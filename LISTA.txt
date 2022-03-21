@@ -1,0 +1,18 @@
+index.html 	-> pagina NON registrati
+dashboard.html -> PAGINA principale per registrati
+modifica-profilo.html -> Modifica informazioni pubbliche e cancella account
+richieste.html -> Richieste acquisto e richieste in invio
+cerca-libro.html -> non serve descrizione
+carica-annuncio.html -> per caricare
+profilo.html -> con username
+spoilers..../profilo?user=yuri.mancosu -> pagina di mancosu
+termini.html -> termini e condizioni
+chi-siamo.html -> chi siamo?
+cerca-libri-scuola.html -> libri per scuola
+cerca-libri-luogo.html -> per luogo
+inserisci-feedback.html -> altre pagine minori
+conferma-invia-richiesta.html -> conferma richiesta
+errore.html -> mostra gli errori
+impostazione.html-> modifica impostazione pagine
+inizializza-profile.html -> cambia
+scegli-tema.html -> post registrazione
