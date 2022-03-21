@@ -89,7 +89,7 @@ NOTE/DESCRIZIONE AGGIUNTIVA:
 FATTA DA: Yuri Mancosi/Lunelli Matteo
 INIZIATA IL: 21 marzo
 CONCLUSA IL: 21 marzo
-NOTE/DESCRIZIONE AGGIUNTIVA: primo draft finito, in attesa dei programmatori
+NOTE/DESCRIZIONE AGGIUNTIVA: primo draft finito, poi aggiunto emoji casuale. in attesa dei programmatori
 
 16) impostazione.html                     -> modifica impostazione pagine
 FATTA DA: 
