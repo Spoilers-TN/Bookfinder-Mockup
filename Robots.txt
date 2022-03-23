@@ -1,0 +1,8 @@
+User-agent: *
+Disallow: 
+
+User-agent: *
+Disallow: /confirm-send.html
+Disallow: /dashboard.html
+Disallow: /error.html
+Disallow: /thank-you.html
