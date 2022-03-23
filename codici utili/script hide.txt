@@ -1,0 +1,8 @@
+function progressAdd(){
+	var progress = document.getElementById('bar');
+	for(var i = 0; i < 100; i++){
+		progress.setAttribute('aria-valuenow', i);
+		progress.setAttribute('style', 'width: ' + i + '%');
+	      setTimeout(() => {  console.log("World!"); }, 55);
+	}
+}
