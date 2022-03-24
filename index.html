@@ -5,8 +5,11 @@
     <!-- FORMATTAZIONE DEFAULT -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
-    <title>Inserisci Annuncio | Bookfinder</title>
+    <title>Compra o vendi libri scolastici usati: Bookfinder</title>
     <meta name="description" content="Crea un annuncio per un libro scolastico usato oggi! Vendi e spedisci il tuo libro su Bookfinder, la piattaforma che fa bene al portafoglio e all'ambiente.">
+
+		<!-- FAVICONS E MANIFST -->
+		<div id="ph-manifest"></div>
 
     <!-- REFERENZE BOOSTRAP -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.1/css/bootstrap.min.css">
@@ -59,7 +62,9 @@
         $(function() {
             $("#ph-navbar").load("snippets/navbar-in.html");
         });
-
+        $(function() {
+            $("#ph-manifest").load("snippets/iconhead.html");
+        });
     </script>
 
 </body>

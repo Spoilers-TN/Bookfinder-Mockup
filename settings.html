@@ -56,7 +56,7 @@
                         <p>Il tuo profilo è stato creato partendo da un account istituzionale. La tua scuola è collegata virtualmente al tuo profilo ed è visibile agli altri. ITT "M. BUONARROTI" è un provider di account verificato. Il tuo amministratore può accedere ai contenuti del tuo account senza preavviso.</p>
 
                         <!-- PULSANTE APRI MODAL -->
-                        <a data-toggle="modal" data-target="#adminAccount">Ulterori informazioni...</a>
+                        <a data-toggle="modal" data-target="#adminAccount">Ulteriori informazioni...</a>
 
                         <!-- MODAL MAGGIORI INFORMAZIONI -->
                         <div class="modal fade" id="adminAccount" tabindex="-1" role="dialog" aria-labelledby="adminAccountLabel" aria-hidden="true">
@@ -104,7 +104,7 @@
                     </div>
                     <div class="col">
                         <h2>Leoni Nicola</h2>
-                        <p>ITT BUONARROTI POZZO<br>4^A Informatica</p>
+                        <p>ITT BUONARROTI POZZO</p>
                         <p style="color: #0066CC; font-weight: bold">24 recensioni</p>
                         <p style="color: #cc7722"></p><i class="fa fa-solid fa-star"></i><i class="fa fa-solid fa-star"></i><i class="fa fa-solid fa-star"></i><i class="fa fa-solid fa-star"></i></p>
                         <br />
@@ -148,44 +148,43 @@
                             <input type="text" class="form-control" rows="3" id="bio" placeholder="Sono Giacomo, ho 22 anni e vengo da Bologna....">
                         </div>
 
-
+                      <!--bottone salva-->
+                      <div class="container">
                         <div class="row">
-                            <div class="col">
-                                <div class="form-group">
-                                    <label for="exampleFormControlSelect1">Seleziona la classe</label>
-                                    <select class="form-control" id="exampleFormControlSelect1" placeholder="Classe">
-                                        <option>Prima</option>
-                                        <option>Seconda</option>
-                                        <option>Terza</option>
-                                        <option>Quarta</option>
-                                        <option>Quinta</option>
-                                    </select>
-                                </div>
+                          <div class="col">
+                            <div class="float-right">
+                            <button type="button" class="btn btn-warning" data-toggle="modal" data-target="#saveButton">
+                              Salva modifiche
+                            </button>
                             </div>
-                            <div class="col">
-                                <div class="form-group">
-                                    <label for="exampleFormControlSelect1">Seleziona l'indirizzo</label>
-                                    <select class="form-control" id="exampleFormControlSelect1" placeholder="Classe">
-                                        <option>Meccanica meccatronica ed energia</option>
-                                        <option>Chimica materiale e biotecnologie</option>
-                                        <option>Elettronica e elettrotecnica</option>
-                                        <option>Informatica e telecomunicazioni</option>
-                                        <option>Costruzione ambiente e territorio</option>
-                                        <option>Digital science</option>
-                                    </select>
-                                </div>
-                            </div>
+                          </div>
                         </div>
-
-
-
-
-
-
-                </div>
+                      </div>
+                      <!-- Modal -->
+                      <div class="modal fade" id="saveButton" data-backdrop="static" data-keyboard="false" tabindex="-1" aria-labelledby="saveChanges" aria-hidden="true">
+                        <div class="modal-dialog">
+                          <div class="modal-content">
+                            <div class="modal-header">  
+                              <h5 class="modal-title" id="saveChanges">Salvare modifiche</h5>
+                              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                              </button>
+                            </div>
+                            <div class="modal-body">
+                              Sei sicuro di voler salvare le modifiche?
+                            </div>
+                            <div class="modal-footer">
+                              <button type="button" class="btn btn-secondary" data-dismiss="modal">Annulla</button>
+                              <a class="btn btn-warning" href="/dashboard.html">Sì</a>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                  </div>
             </div>
-        </div>
-    </div>
+          </div>
+      </div>
+  
 
 
 
@@ -196,14 +195,14 @@
                 <div id="hormenu">
                     <!--impostazione stile pagina-->
                     <div class="form-check">
-                        <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="option1" checked>
-                        <label class="form-check-label" for="exampleRadios1">
+                        <input class="form-check-input" type="radio" name="selezioneTema" id="themeSelection" value="chiaro" checked>
+                        <label class="form-check-label" for="themeSelection">
                             Tema chiaro
                         </label>
                     </div>
                     <div class="form-check">
-                        <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios2" value="option2">
-                        <label class="form-check-label" for="exampleRadios2">
+                        <input class="form-check-input" type="radio" name="selezioneTema" id="themeSelectionD" value="scuro">
+                        <label class="form-check-label" for="themeSelectionD">
                             Tema vampiro
                         </label>
                     </div>
