@@ -3,7 +3,7 @@
   "short_name": "BookFinder",
   "theme_color": "#FFDE59",
   "background_color": "#FFFFFF",
-  "display": "fullscreen",
+  "display": "standalone",
   "orientation": "portrait",
   "scope": "/",
   "start_url": "/"
