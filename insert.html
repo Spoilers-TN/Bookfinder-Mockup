@@ -65,7 +65,26 @@
                 <p>Il tuo annuncio apparirà così:</p>
             </div>
             <div class="col col-auto">
-                <button class="btn btn-success">Pubblica annuncio</button>
+                <!-- Button trigger modal -->
+              <button type="button" class="btn btn-warning" data-toggle="modal" data-target="#pubblicaAnnuncio">Pubblica annuncio</button>
+              <!-- Modal -->
+              <div class="modal fade" id="pubblicaAnnuncio" tabindex="-1" aria-labelledby="caricaAnnunico" aria-hidden="true">
+                <div class="modal-dialog">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h5 class="modal-title" id="caricaAnnunico">Carica annuncio</h5>
+                      <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                      </button>
+                    </div>
+                    <div class="modal-body">Sei sicuro di voler pubblicare l'annuncio?</div>
+                    <div class="modal-footer">
+                      <button type="button" class="btn btn-secondary" data-dismiss="modal">No</button>
+                      <a class="btn btn-warning" href="/dashboard.html">Sì</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
             </div>
         </div>
     </div>
@@ -75,7 +94,7 @@
                 <div class="container">
                     <!-- Le info seguenti devono essere autocompilate in base all'ESBN - per programmatori -->
                     <div class="row">
-                        <div class="col-md-auto"><img alt="antologia" src="https://www.libraccio.it/images/9788822177070_0_170_0_75.jpg"></div>
+                        <div class="col-md-auto"><img alt="antologia" src="https://www.libraccio.it/images/9788822177070_0_170_0_75.jpg">                        </div>
                         <div class="col">
                             <h4 class="card-title">Letteratura e Storia Italiana terza edizione</h4>
                             <div class="row">
@@ -83,52 +102,80 @@
                                     <p class="subtitle">Autore: </p>
                                     <p class="subtitle">Anno di pubblicazione: </p>
                                     <p class="subtitle">Casa editrice: </p>
-                                    <p class="subtitle">Codice EAN: </p>
-                                    <p class="subtitle">Codice ESBN: </p>
+                                    <p class="subtitle">Codice ISBN: </p>
                                 </div>
                                 <div class="col">
-                                  <div class="form-group">
-                                    <input type="autore" class="form-control" readonly placeholder="Autore">
-                                  </div>
-                                  <div class="form-group">
-                                    <input type="<div class="form-group">
-                                    <input type="autore" class="form-control" readonly placeholder="Autore">
-                                  </div>" class="form-control" readonly placeholder="Anno di pubblicazione">
-                                  </div>
-                                  <div class="form-group">
-                                    <input type="autore" class="form-control" readonly placeholder="Autore">
-                                  </div>
-                                  <div class="form-group">
-                                    <input type="autore" class="form-control" readonly placeholder="Autore">
-                                  </div>
+                                    <p class="subtitle">Data di pubblicazione: </p>
+                                    <p class="subtitle">Versione digitale: </p>
+                                    <p class="subtitle">Prezzo: </p>
                                 </div>
-                                <div class="col">
-                                    <p class="subtitle">Anno di acquisto: </p>
-                                    <p class="subtitle">Foto del libro: </p>
-                                    <p class="subtitle">Stato del libro: </p>
-                                    <p class="subtitle">Prezzo medio (Attuale): </p>
-                                    <p class="subtitle">Altro: </p>
-                                </div>
-                                <div class="col">
-                                  <div class="form-group">
-                                    <input type="autore" class="form-control" readonly placeholder="Autore">
-                                  </div>
-                                  <div class="form-group">
-                                    <input type="autore" class="form-control" readonly placeholder="Autore">
-                                  </div>
-                                  <div class="form-group">
-                                    <input type="autore" class="form-control" readonly placeholder="Autore">
-                                  </div>
-                                  <div class="form-group">
-                                    <input type="autore" class="form-control" readonly placeholder="Autore">
-                                  </div>
                             </div>
-                        </div>
+                          <label>Descrizione dello stato del libro:
+                          </label>
+                          <br>
+                          <br>
                     </div>
                 </div>
             </div>
         </div>
     </div>
+  </div>
+
+  
+  <div class="container" style="margin-bottom: 50px">
+        <div class="card">
+            <div class="card-body">
+                <div class="container">
+                    <!-- Le info seguenti devono essere autocompilate in base all'ISBN - per programmatori -->
+                  <font size="5">Carica tramite codice ISBN</font>
+                  <br>
+                  <br>
+                  <div class="input-group mb-3">
+                    <input type="text" class="form-control" placeholder="Codice ISBN" aria-label="Recipient's username" aria-describedby="basic-addon2">
+                    <div class="input-group-append">
+                      <button class="btn btn-outline-warning" type="button">Carica</button>
+                    </div>
+                  </div>
+            </div>
+        </div>
+    </div>
+  </div>
+
+  <div class="container" style="margin-bottom: 50px">
+        <div class="card">
+            <div class="card-body">
+                <div class="container">
+                    <!-- Le info seguenti devono essere autocompilate in base all'ESBN - per programmatori -->
+                    <div class="row">
+                        <div class="col-md-auto"><img alt="Notfound" src="assets/img/general/notfound.png" width="170" height=auto></img></div>
+                        <div class="col">
+                            <h4 class="card-title">Letteratura e Storia Italiana terza edizione</h4>
+                          <br>
+                            <div class="row">
+                                <div class="col">
+                                  <div class="form-group">
+                                    <input type="versioneDigitale" class="form-control" placeholder="Versione digitale">
+                                  </div>
+                                </div>
+                                <div class="col">      
+                                  <div class="form-group">
+                                    <input type="prezzo" class="form-control" placeholder="Prezzo">
+                                  </div>
+                                </div>
+                            </div>
+                          <label>Descrizione dello stato del libro</label>
+                          <div class="form-group">
+                              <input type="text" class="form-control" rows="3" id="stato" placeholder="Condizioni del libro">
+                          </div>
+                          <br>
+                          <button class="btn btn-warning" margin="auto"><i class="fal fa-arrow-alt-to-top"></i>Allega immagini</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+  </div>
+  
     <!-- PLACEHOLDER DEL FOOTER -->
     <div id="ph-footer"></div>
 

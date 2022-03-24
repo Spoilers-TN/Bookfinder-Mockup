@@ -29,7 +29,6 @@
 }
 
 .navigation-clean .navbar-brand {
-  font-weight: bold;
   color: inherit;
 }
 
@@ -98,7 +97,6 @@
 
 .navigation-clean.navbar-inverse .navbar-nav > li > a {
   color: #dfe8ee;
-  font-weight: bold;
 }
 
 .navigation-clean.navbar-inverse .navbar-nav > li > a:focus, .navigation-clean.navbar-inverse .navbar-nav > li > a:hover {
