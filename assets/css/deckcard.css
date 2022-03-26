@@ -1,3 +1,8 @@
+.container .btn-holder {
+  justify-content: flex-end;
+  display: flex;
+}
+
 .card{
     box-shadow: 0 0 5px 0 rgba(22, 22, 26, .25);
 }

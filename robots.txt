@@ -6,3 +6,7 @@ Disallow: /confirm-send.html
 Disallow: /dashboard.html
 Disallow: /error.html
 Disallow: /thank-you.html
+Disallow: /show-result.html
+Disallow: /messages.html
+Disallow: /email.html
+Disallow: /assets/*
