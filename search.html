@@ -7,7 +7,7 @@
     <!-- FORMATTAZIONE DEFAULT -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
-    <title>Compra o vendi libri scolastici usati: Bookfinder</title>
+    <title>Cerca libri usati per categorie, nome, prezzo... | Bookfinder</title>
     <meta name="description" content="Cerca tra il catalogo del sito">
 
     <!-- FAVICONS E MANIFST -->
@@ -125,14 +125,26 @@
           <p style="margin-bottom: 0px;font-weight: bold;">Filtra per stato:</p>
           <div class="form-check"><input class="form-check-input" type="checkbox" id="formCheck-1" style="margin-top: 7.8px;">
             <label class="form-check-label" for="formCheck-1" style="color: rgb(92,92,90);border-width: 0px;border-color: rgb(0,0,0);font-size: 15px;">
-              <strong>Nuovo</strong></label></div>
+              <strong>Nuovo</strong></label>
+          </div>
           <div class="form-check">
             <input class="form-check-input" type="checkbox" id="formCheck-2" style="margin-top: 7.8px;">
             <label class="form-check-label" for="formCheck-2" style="color: rgb(92,92,90);border-width: 0px;border-color: rgb(0,0,0);font-size: 15px;">
-              <strong>Come nuovo</strong></label></div>
-          <div class="form-check"><input class="form-check-input" type="checkbox" id="formCheck-3" style="margin-top: 7.8px;"><label class="form-check-label" for="formCheck-3" style="color: rgb(92,92,90);border-width: 0px;border-color: rgb(0,0,0);font-size: 15px;"><strong>In buone condizioni</strong><br></label></div>
-          <div class="form-check"><input class="form-check-input" type="checkbox" id="formCheck-4" style="margin-top: 7.8px;"><label class="form-check-label" for="formCheck-4" style="color: rgb(92,92,90);border-width: 0px;border-color: rgb(0,0,0);font-size: 15px;"><strong>Usato</strong></label></div>
+              <strong>Come nuovo</strong></label>
+          </div>
+          <div class="form-check">
+            <input class="form-check-input" type="checkbox" id="formCheck-3" style="margin-top: 7.8px;">
+            <label class="form-check-label" for="formCheck-3" style="color: rgb(92,92,90);border-width: 0px;border-color: rgb(0,0,0);font-size: 15px;">
+              <strong>In buone condizioni</strong><br></label>
+          </div>
+          <div class="form-check">
+            <input class="form-check-input" type="checkbox" id="formCheck-4" style="margin-top: 7.8px;">
+            <label class="form-check-label" for="formCheck-4" style="color: rgb(92,92,90);border-width: 0px;border-color: rgb(0,0,0);font-size: 15px;">
+              <strong>Usato</strong></label>
+          </div>
         </div>
+
+        
         <div class="col-md-3" style="padding: 30px;">
           <p style="margin-bottom: 0px;font-weight: bold;">Filtra per prezzo:</p>
           <div class="form-check"><input class="form-check-input" type="checkbox" id="formCheck-7" style="margin-top: 7.8px;"><label class="form-check-label" for="formCheck-7" style="color: rgb(92,92,90);border-width: 0px;border-color: rgb(0,0,0);font-size: 15px;"><strong>Meno di 5 euro</strong></label></div>
@@ -155,22 +167,42 @@
 
     <!-- GRIGLIA DEI RISULTATI -->
 
+    <div class="container">
+      <div class="row gy-4">
+          <div class="col-sm">
+              <div class="card h-100">
+                  <img src="..." class="card-img-top" alt="...">
+                  <div class="card-body">
+                      <h5 class="card-title fw-bold">Card title</h5>
+                      <p class="card-text">Some quick example text to build make up the bulk of the card's content.
+                      </p>
+                  </div>
+              </div>
+          </div>
+          <div class="col-sm">
+              <div class="card h-100">
+                  <img src="..." class="card-img-top" alt="...">
+                  <div class="card-body">
+                      <h5 class="card-title fw-bold">Card title</h5>
+                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content. Some more quick example text for the card's content. Some quick example text to build on the card title and make up the bulk of the card's content. Some more quick example text for the card's content. Some quick example text to build on the card title and make up the bulk of the card's content. Some more quick example text for the card's content. Some quick example text to build on the card title and make up the bulk of the card's content. Some more quick example text for the card's content.</p>
+                  </div>
+              </div>
+          </div>
+          <div class="col-sm">
+              <div class="card h-100">
+                  <img src="..." class="card-img-top" alt="...">
+                  <div class="card-body">
+                      <h5 class="card-title fw-bold">Card title</h5>
+                      <p class="card-text">Some quick example text to make up the bulk of the card's content.</p>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </div>
+
     <div class="container py-5 bg-faded">
       <div class="card-columns">
-          <div class="card text-center">
-            <img class="img" style="max-height: 300px; min-height: 250px; object-fit: cover;" src="/assets/img/general/antologia.webp" alt="Copertina del libro">
-            <div class="card-body">
-              
-              <span class="cc-venditore"><a href="?profile=leoni_nicola" class="cc-venditore">Leoni Nicola</a></span>
-              <span class="cc-titolo"><h5 href="?query=titololibro" class="cc-titolo"><b>Laboratorio di Letteratura 2 - Dal Barocco al Romanticismo</b></h5></span>
-              
-              <span class="cc-stato"><p>Edizione <b>2017</b> - <i>In buone condizioni</i></p></span>
-              
-              <span class="cc-prezzo"><a href="" class="btn btn-warning">&#x20ac 25.50</a></span>
-              
-            </div>
-          </div>
-          <div class="card text-center">
+          <div class="card h-200">
             <img class="img" style="max-height: 300px; min-height: 250px; object-fit: cover;" src="/assets/img/general/antologia.webp" alt="Copertina libro non caricata">
             <div class="card-body">
               
@@ -183,7 +215,20 @@
               
             </div>
           </div>
-          <div class="card text-center">
+          <div class="card h-200 text-center">
+            <img class="img" style="max-height: 300px; min-height: 250px; object-fit: cover;" src="/assets/img/general/antologia.webp" alt="Copertina libro non caricata">
+            <div class="card-body">
+              
+              <span class="cc-venditore"><a href="?profile=leoni_nicola" class="cc-venditore">Leoni Nicola</a></span>
+              <span class="cc-titolo"><h5 href="?query=titololibro" class="cc-titolo"><b>Laboratorio di Letteratura 2 - Dal Barocco al Romanticismo</b></h5></span>
+              
+              <span class="cc-stato"><p>Edizione <b>2017</b> - <i>In buone condizioni</i></p></span>
+              
+              <span class="cc-prezzo"><a href="" class="btn btn-warning">&#x20ac 25.50</a></span>
+              
+            </div>
+          </div>
+          <div class="card h-200 text-center">
             <img class="img" style="max-height: 300px; min-height: 250px; object-fit: cover;" src="https://www.libraccio.it/images/9788868023065_0_500_0_75.jpg" alt="Copertina libro non caricata">
             <div class="card-body">
               
@@ -196,7 +241,7 @@
               
             </div>
           </div>
-          <div class="card text-center">
+          <div class="card h-200 text-center">
             <img class="img" style="max-height: 300px; min-height: 250px; object-fit: cover;" src="/assets/img/general/notfound.webp" alt="Copertina libro non caricata">
             <div class="card-body">
               
@@ -209,7 +254,7 @@
               
             </div>
           </div>
-          <div class="card text-center">
+          <div class="card h-200 text-center">
             <img class="img" style="max-height: 300px; min-height: 250px; object-fit: cover;" src="/assets/img/general/notfound.webp" alt="Copertina libro non caricata">
             <div class="card-body">
               
@@ -222,7 +267,7 @@
               
             </div>
           </div>
-          <div class="card text-center">
+          <div class="card h-200 text-center">
             <img class="img" style="max-height: 300px; min-height: 250px; object-fit: cover;" src="/assets/img/general/notfound.webp" alt="Copertina libro non caricata">
             <div class="card-body">
               
