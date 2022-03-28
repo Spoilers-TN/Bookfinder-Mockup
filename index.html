@@ -10,8 +10,6 @@
     <meta name="description" content="Crea un annuncio per un libro scolastico usato oggi! Vendi e spedisci il tuo libro su Bookfinder, la piattaforma che fa bene al portafoglio e all'ambiente.">
     <meta name="keywords" content="Login, Sito, Studenti, Libri, Descrizione">
 
-    <!-- <link href='https://fonts.googleapis.com/css?family=Catamaran' rel='stylesheet'> -->
-
     <!-- FAVICONS E MANIFST -->
     <link rel="apple-touch-icon" sizes="57x57" href="assets/favicons/apple-icon-57x57.png">
     <link rel="apple-touch-icon" sizes="60x60" href="assets/favicons/apple-icon-60x60.png">
@@ -58,6 +56,7 @@
 
 <body data-aos-easing="ease" data-aos-duration="750" data-aos-delay="200" cz-shortcut-listen="true" style="overflow-x: hidden;">
 
+		<!-- PLACEHOLDER DELLA NAVBAR -->
     <div id="ph-navbar"></div>
 
 		<!-- HEADER PRINCIPALE -->
@@ -136,30 +135,6 @@
         </div>
     </div>
 
-
-		<!-- SITO LANCIATO 
-    <section style="background: #F6F6F6;">
-        <div class="container" style="padding-top: 35px; padding-bottom: 35px">
-            <div class="row">
-                <div class="col">
-                    <div class="card align-self-center">
-                        <div class="col-auto">
-
-                        </div>
-                        <div class="card-body align-self-center align-items-center">
-                            <h2 class="card-title text-center">Sito lanciato!</h2>
-                            <p class="card-text text-center">Dopo aver formalizzato l'idea, la CFS Spoilers è lieta di annunciare il lancio del sito. Da oggi potrai vendere e acquistare libri scolastici usati con altri studenti della scuola in modo veloce, facile, gratuito e su una piattaforma realizzata da studenti senza altri fini commerciali e che rispetta i tuoi dati.</p>
-                        </div>
-                        <div class="col-auto">
-
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-	-->
-
 	<!-- SEZIONE "COME FUNZIONA" -->
     <section id="come-funziona" style="padding-top: 15px; padding-bottom: 15px">
         <div class="container">
@@ -225,9 +200,10 @@
         </div>
     </section>
 
-	<br>
-	<p style="color: #405060; text-align: center">Icone fornite da Flaticon.com</p>
-	<br>
+		<!-- LICENZA ICONE -->
+		<br>
+		<p style="color: #405060; text-align: center">Icone fornite da Flaticon.com</p>
+		<br>
     <!-- PLACEHOLDER DEL FOOTER -->
     <div id="ph-footer"></div>
 
@@ -240,13 +216,13 @@
         $(function() {
             $("#ph-navbar").load("assets/snippets/navbar-un.html");
         });
-
     </script>
+
+		<!-- SCRIPT PER INIZIALIZZARE AOS -->
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
     <script>
         AOS.init();
     </script>
 
 </body>
-
 </html>
