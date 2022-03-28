@@ -1,6 +1,5 @@
 .team-boxed {
   color: #313437;
-  background-color: #eef4f7;
 }
 
 .team-boxed p {
@@ -30,10 +29,6 @@
 
 .team-boxed .intro p {
   margin-bottom: 0;
-}
-
-.team-boxed .people {
-  padding: 50px 0;
 }
 
 .team-boxed .item {
@@ -70,21 +65,5 @@
 
 .team-boxed .item img {
   max-width: 160px;
-}
-
-.team-boxed .social {
-  font-size: 18px;
-  color: #a2a8ae;
-}
-
-.team-boxed .social a {
-  color: inherit;
-  margin: 0 10px;
-  display: inline-block;
-  opacity: 0.7;
-}
-
-.team-boxed .social a:hover {
-  opacity: 1;
 }
 
